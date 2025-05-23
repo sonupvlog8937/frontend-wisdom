@@ -8,9 +8,9 @@ const periods = [
   { id: 1, label: 'Period 1 (10:00 AM - 11:00 AM)', startTime: '10:00', endTime: '11:00' },
   { id: 2, label: 'Period 2 (11:00 AM - 12:00 PM)', startTime: '11:00', endTime: '12:00' },
   { id: 3, label: 'Period 3 (12:00 PM - 1:00 PM)', startTime: '12:00', endTime: '13:00' },
-  { id: 4, label: 'Period 4 (1:00 PM - 2:00 PM)', startTime: '13:00', endTime: '14:00' }, // break
-  { id: 5, label: 'Period 5 (2:00 PM - 3:00 PM)', startTime: '14:00', endTime: '15:00' },
-  { id: 6, label: 'Period 6 (3:00 PM - 4:00 PM)', startTime: '15:00', endTime: '16:00' },
+  { id: 4, label: 'Lunch Break (1:00 PM - 2:00 PM)', startTime: '13:00', endTime: '14:00' }, // break
+  { id: 5, label: 'Period 4 (2:00 PM - 3:00 PM)', startTime: '14:00', endTime: '15:00' },
+  { id: 6, label: 'Period 5 (3:00 PM - 4:00 PM)', startTime: '15:00', endTime: '16:00' },
 ];
 
 const AssignPeriod2 = ({classId,isEdit, periodId, close}) => {
