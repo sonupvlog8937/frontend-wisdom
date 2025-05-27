@@ -108,25 +108,45 @@ function Navbar() {
             
 
              {!authenticated && <><MenuItem onClick={handleCloseNavMenu}>
-                <Button className='button-beautify button-beautify-one' onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', }} >
-                  <Box sx={{ display: 'flex', flexDirection: 'row' }} className="button-box">
-                    Register
-                  </Box>
-                </Button>
+                <Link className="nav-list" to={'/register'}>
+              <Button className='button-beautify button-beautify-one' onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', }} >
+                <Box sx={{ display: 'flex', flexDirection: 'row' }} className="button-box">
+                  Register
+                </Box>
+              </Button>
+            </Link>
               </MenuItem>
               
               <MenuItem onClick={handleCloseNavMenu}>
+              <Link className="nav-list" to={'/login'}>
               <Button className='button-beautify button-beautify-one' onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', }} >
                 <Box sx={{ display: 'flex', flexDirection: 'row' }} className="button-box">
-                <LoginIcon sx={{ marginRight: "5px" }} />
-                 Login
+                  <LoginIcon sx={{ marginRight: "5px" }} />
+                  Login
                 </Box>
               </Button>
+            </Link>
             </MenuItem>
             </>
               }
              
-
+             {authenticated && 
+           <Link className="nav-list" to={'/logout'}>
+           <Button className='button-beautify button-beautify-danger' onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white',  }} >
+               <Box sx={{display: 'flex', flexDirection: 'row'}} className="button-box">
+               Log Out
+               </Box>
+             </Button>
+           </Link>
+           }
+            
+            {authenticated && <Link className="nav-list" to={`${user.role.toLowerCase()}`}>
+              <Button className='button-beautify button-beautify-one' onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white'}} >
+              <Box sx={{display: 'flex', flexDirection: 'row',color:"#fff",zIndex:999}} className="button-box">
+                Dashboard
+                </Box>
+              </Button>
+            </Link>}
              
 
             </Menu>
@@ -149,7 +169,7 @@ function Navbar() {
               }}
               className='text-beautify'
             >
-              SMS
+              WWPS
             </Typography></Link>
 
 
