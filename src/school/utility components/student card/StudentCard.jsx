@@ -40,12 +40,6 @@ export default function StudentCardAdmin({
   return (
     <>
       <Card sx={{ maxWidth: 545 , margin:'5px'}}>
-        <CardMedia
-          component="img"
-          alt="green iguana"
-          height="360"
-          image={`/images/uploaded/student/${student.student_image}`}
-        />
         <CardContent>
           <Typography
             component={"div"}

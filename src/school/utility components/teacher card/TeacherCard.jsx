@@ -38,12 +38,7 @@ export default function TeacherCardAdmin({
   return (
     <>
       <Card sx={{ maxWidth: 545,margin:2 }}>
-        <CardMedia
-          component="img"
-          alt="green iguana"
-          height="340"
-          image={`/images/uploaded/teacher/${teacher.teacher_image}`}
-        />
+        
         <CardContent>
           <Typography
             component={"div"}
