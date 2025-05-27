@@ -70,8 +70,8 @@ function Navbar() {
               }}
               className='text-beautify'
             >
-              <img src='./images/static/school_management_system.png' height={"90px"} width={'90px'} />
-            MULTIPLE SCHOOL MANAGEMENT SYSTEM
+              <img src='https://www.canva.com/design/DAGoqJmXSFY/d5kCqtnz2V9o1pGgdAS8iQ/view?utm_content=DAGoqJmXSFY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8c649ec90e' height={"90px"} width={'90px'} />
+            WISDOM WORLD PUBLIC SCHOOL
             </Typography>
           </Link>
 

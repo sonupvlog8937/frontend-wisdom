@@ -162,7 +162,7 @@ export default function School() {
                         <MenuIcon />
                     </IconButton>
                     <Typography variant="h6" noWrap component="div">
-                        School Management System
+                        WISDOM WORLD PUBLIC SCHOOL
                     </Typography>
                 </Toolbar>
             </AppBar>

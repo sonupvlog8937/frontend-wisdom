@@ -157,7 +157,7 @@ export default function Student() {
                         <MenuIcon />
                     </IconButton>
                     <Typography variant="h6" noWrap component="div">
-                        School Management System Student
+                        WISDOM WORLD PUBLIC SCHOOL
                     </Typography>
                 </Toolbar>
             </AppBar>
