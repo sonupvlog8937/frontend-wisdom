@@ -22,10 +22,6 @@ export default function StudentDetails(){
         <>
                 <Typography variant="h3"  sx={{textAlign:'center',marginBottom:"15px" }}>Student Details</Typography>
                 {student && <>
-
-                    <Box component={"div"} sx={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center",padding:"5px" }}>
-                            <img src={`/images/uploaded/student/${student.student_image}`} alt='image' height={'370px'} width={'450px'} style={{borderRadius:"50%"}} />
-                        </Box>
                     <TableContainer sx={{margin:"auto", width:"80%",border:'1px solid transparent',  borderRadius:"17px", boxShadow:"0 10px 8px -5px lightgray"
                     }} component={'div'}>
                   <Table sx={{ minWidth: 250 }} aria-label="simple table">
