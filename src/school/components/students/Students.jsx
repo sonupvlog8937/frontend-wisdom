@@ -429,18 +429,7 @@ export default function Students() {
             </Box>
           </Paper>
         </Box>
-
-        <Box sx={{ padding: "40px", display: "flex", flexWrap: "wrap" }}>
-          {students.length > 0 &&
-            students.map((value, i) => (
-              <StudentCardAdmin
-                key={i}
-                student={value}
-                handleDelete={handleDelete}
-                handleEdit={handleEdit}
-              />
-            ))}
-        </Box>
+        see student , then go to attendece section 
       </Box>
     </>
   );
